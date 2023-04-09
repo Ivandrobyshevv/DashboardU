@@ -1,0 +1,28 @@
+.item {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 25px 5px;
+}
+
+.item__content {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.item__dotted {
+    border-top: 1px dashed #ffffff;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+.item__btn {
+    padding: 5px;
+}
+
+.none_info {
+    margin-top: 20%;
+    text-align: center;
+    color: #F4BD40;
+
+}

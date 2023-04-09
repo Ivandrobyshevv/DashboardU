@@ -1,0 +1,24 @@
+.block-main {
+    border-radius: 15px;
+    background-color: #232429;
+}
+
+.header_progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.form-select {
+    width: 50%;
+    background-color: #5e5f62;
+    color: white;
+    border: 1px solid black;
+}
+
+.form-select:focus {
+    border-color: #464646;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(179, 175, 179, 0.25)
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "name": "Майк",
+      "surname": "Тайсон"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "name": "Том",
+      "surname": "Харди"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "name": "Брэд",
+      "surname": "Питт"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "name": "Леонардо",
+      "surname": "Дикаприо"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "name": "Леонардо",
+      "surname": "Дикаприо"
+    }
+  },
+  {
+    "model": "api.exam",
+    "pk": 1,
+    "fields": {
+      "name": "Экзамен 1",
+      "description": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI ве",
+      "date_exam": "2023-04-11"
+    }
+  },
+  {
+    "model": "api.exam",
+    "pk": 2,
+    "fields": {
+      "name": "Экзамен 2",
+      "description": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI ве",
+      "date_exam": "2023-04-13"
+    }
+  },
+  {
+    "model": "api.exam",
+    "pk": 3,
+    "fields": {
+      "name": "Экзамен 3",
+      "description": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI ве",
+      "date_exam": "2023-04-14"
+    }
+  },
+  {
+    "model": "api.exam",
+    "pk": 4,
+    "fields": {
+      "name": "Экзамен 4",
+      "description": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI ве",
+      "date_exam": "2023-04-16"
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 1,
+    "fields": {
+      "user": 3,
+      "exam": 1,
+      "grade": 3.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 2,
+    "fields": {
+      "user": 4,
+      "exam": 1,
+      "grade": 4.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 3,
+    "fields": {
+      "user": 5,
+      "exam": 1,
+      "grade": 3.2
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "exam": 1,
+      "grade": 3.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "exam": 1,
+      "grade": 5.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "exam": 2,
+      "grade": 3.2
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 7,
+    "fields": {
+      "user": 4,
+      "exam": 2,
+      "grade": 4.2
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 8,
+    "fields": {
+      "user": 5,
+      "exam": 2,
+      "grade": 3.9
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "exam": 2,
+      "grade": 5.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "exam": 2,
+      "grade": 2.2
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 11,
+    "fields": {
+      "user": 3,
+      "exam": 4,
+      "grade": 5.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 12,
+    "fields": {
+      "user": 4,
+      "exam": 4,
+      "grade": 5.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 13,
+    "fields": {
+      "user": 5,
+      "exam": 4,
+      "grade": 3.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "exam": 4,
+      "grade": 3.0
+    }
+  },
+  {
+    "model": "api.performance",
+    "pk": 15,
+    "fields": {
+      "user": 2,
+      "exam": 4,
+      "grade": 4.4
+    }
+  }
+]

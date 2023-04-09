@@ -1,0 +1,28 @@
+.exam_wrapper {
+    background-color: #232429;
+    color: white;
+    border-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block-date {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-text {
+    margin-left: 15px;
+}
+
+.title_exam {
+    text-align: center;
+}
+
+.exam_border{
+    border: 2px solid #F4BD40;
+}
