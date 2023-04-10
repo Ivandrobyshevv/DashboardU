@@ -4,7 +4,8 @@
 Запуск проекта:
 Клонировать репозиторий
 ````
-git clone 
+git clone https://github.com/Ivandrobyshevv/DashboardU.git
+````
 Установить разрешение на запуск, в локальном проекте
 ````
 chmod +x app/entrypoint.sh
